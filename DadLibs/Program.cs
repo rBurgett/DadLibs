@@ -6,7 +6,8 @@ namespace DadLibs
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to DadLibs!\n");
+            var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
+            Console.WriteLine($"Welcome to DadLibs v{version}!\n");
             while (true)
             {
                 var random = new Random();
