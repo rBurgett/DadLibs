@@ -9,9 +9,8 @@ namespace DadLibs
             Console.WriteLine("Welcome to DadLibs!\n");
             while (true)
             {
-                // get a random int between 0 and 3
                 var random = new Random();
-                var randomInt = random.Next(0, 4);
+                var randomInt = random.Next(0, 7);
                 var story = "";
                 switch (randomInt)
                 {
